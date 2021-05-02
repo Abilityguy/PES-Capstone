@@ -11,6 +11,7 @@
 
 ## MiniGrip Environment
 * Unzip MiniGrid_scripts.zip
+* pip install -r requirements.txt
 * To train a model on a particular environment run 
   
 
