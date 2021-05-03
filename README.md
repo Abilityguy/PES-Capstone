@@ -41,3 +41,12 @@
 * Choose Autonomous mode option in the simulator.
 * Run the driver python file at code/drive_rover.py
 * The driver creates a socket and waits for the simulator to connect. Then, it starts the process of mapping the environment and collecting the goals.
+
+## Genetic Algorithm Scripts
+* Clone [this](https://github.com/rgarzonj/gym-blocksworld) repository.
+* Download the bwstates sources from ftp://arp.anu.edu.au/pub/bwstates.1.tar.gz
+* Untar and unzip the file with tar xvfz bwstates.1.tar.gz (this will create a folder bwstates.1)
+* Copy the entire folder bwstates.1 into the folder /gym-blocksworld/gym_blocksworld/envs/BWSTATES
+* Compile the sources in the folder bwstates.1 (follow the instructions in bwstates1/README.ms). This should generate a binary file /bwstates.1/bwstates
+* Go to the folder containing the cloned repository (this folder should contain the cloned folder gym-blocksworld) and run the following command: `pip install -e gym-blocksworld`
+* Run the command python3 genetic_algo/genetic_algo_deap.py
