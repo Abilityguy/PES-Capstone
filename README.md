@@ -9,7 +9,7 @@
 * Under the Agent tab, you can select between training or inference mode for the model.
 * Press the play button.
 
-## MiniGrip Environment
+## MiniGrid Environment
 * Unzip MiniGrid_scripts.zip
 * pip install -r requirements.txt
 * To train a model on a particular environment run 
