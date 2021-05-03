@@ -49,4 +49,4 @@
 * Copy the entire folder bwstates.1 into the folder /gym-blocksworld/gym_blocksworld/envs/BWSTATES
 * Compile the sources in the folder bwstates.1 (follow the instructions in bwstates1/README.ms). This should generate a binary file /bwstates.1/bwstates
 * Go to the folder containing the cloned repository (this folder should contain the cloned folder gym-blocksworld) and run the following command: `pip install -e gym-blocksworld`
-* Run the command python3 genetic_algo/genetic_algo_deap.py
+* Run the command `python3 genetic_algo/genetic_algo_deap.py`
