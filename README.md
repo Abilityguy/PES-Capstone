@@ -34,3 +34,13 @@
 
 
 	OMP_NUM_THREADS=1 python -m monobeast.minigrid.monobeast_amigo --env MiniGrid-DoorKey-8x8-v0 --num_actors 1 --modify --generator_batch_size 150 --generator_entropy_cost .05 --generator_reward_negative -.3 --savedir ./8x8 --xpid 20 --total_frames 10000000000 --load_module ./8x8/model.tar
+	
+
+## RoboND Rover
+-Instructions to run the rover driver:
+
+* Run Roversim.x86_64 to start the simulator. 
+* Choose the appropriate graphics settings and start the simulator.
+* Choose Autonomous mode option in the simulator.
+* Run the driver python file at code/drive_rover.py
+* The driver creates a socket and waits for the simulator to connect. Then, it starts the process of mapping the environment and collecting the goals.
